@@ -1,6 +1,18 @@
-# Insert your company-hash here. When you get the download link, this is the long alpha-numeric scring 
-# that comes after setupdownloader_ in the filename. 
-# Do not include the square brackets (but do include the = if there is one).
+<#
+    .SYNOPSIS
+    Windows deployment script for BitDefender
+    .Instructions
+    In GravityZone go to your Packages tab.  Choose the company specific package and click "Send download links".  Copy the company hash, this is the long alpha-numerica string that comes after
+    the "setupdownloader_ in the filename.  Do not include the square brackets.  Paste the hash below in " ComapnyHash ="
+    .NOTES
+    Jarrod Higgins
+    10-07-22
+    
+	
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+This script is not officially supported by Pax8 or BitDefender. 
+#> 
+
 $CompanyHash = ""
 
 ### Do not modify code below this line.  
