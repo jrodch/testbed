@@ -3,7 +3,7 @@
 # Do not include the square brackets (but do include the = if there is one).
 $CompanyHash = ""
 
-### Modify below this line at your own risk!
+### Do not modify code below this line.  
 
 # If it's already installed, just do nothing
 $Installed = Get-ItemProperty "HKLM:\Software\Microsoft\Windows\CurrentVersion\Uninstall\*" | 
