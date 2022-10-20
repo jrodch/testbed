@@ -5,7 +5,6 @@
     In GravityZone go to your Packages tab.  Choose the company specific package and click "Send download links".  Copy the company hash, this is the long alpha-numerica string that comes after
     the "setupdownloader_ in the filename.  Do not include the square brackets.  Paste the hash below in " ComapnyHash ="
     .NOTES
-    Jarrod Higgins
     10-20-22
     
 	
