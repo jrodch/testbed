@@ -5,8 +5,8 @@
     Download the lasted GA version of the EXE from the S1 management console.  
 	Rename the installer to "SentinelOneInstaller.exe"
 	Upload the EXE to a publicly accessible site.  (Example : www.MyTechCo.com/uploads/SentinelOneInstaller.exe).
-	You will input the URL for that site replacing "Enter URL".
-	You will need to input your SentinelOne Site or Group Token, replacing "Put_Token_Here".
+	You will input the URL for that site below, replacing "Enter URL".
+	You will need to input your SentinelOne Site or Group Token below, replacing "Put_Token_Here".
     .NOTES
     Jarrod Higgins
     10-07-22
