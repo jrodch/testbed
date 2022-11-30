@@ -3,7 +3,7 @@
     Windows deployment script for BitDefender.
     .Instructions
     First you will need to get your company hash.  In GravityZone go to Packages. Choose the package you want to deploy and click "Send Download Links".  Copy the alphanumeric code at the end of the Windows Downloader 
-    link (Do not include the square brackets).  This is your company hash.  Past it below under "$CompanyHash".
+    link (Do not include the square brackets).  This is your company hash.  Paste it below under "$CompanyHash".
     .NOTES
     Jarrod Higgins
     10-07-22
