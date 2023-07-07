@@ -50,7 +50,7 @@ Write-Host "--CustomerToken = "$SentinelOneCustToken""
 #SentinelOne Command Line Options
 $S1Options = ""
 
-$arguments = "/t " + $SentinelOneCustToken + $S1Options
+$arguments = "-q -t " + $SentinelOneCustToken + $S1Options
 
 #Check to see if a previous SentinelOne Agent installation process is running
 Write-Host ""
