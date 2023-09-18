@@ -46,7 +46,7 @@ catch
 $FullDestination = "$DestinationPath\setupdownloader_[$CompanyHash].exe"
 if (Test-Path $FullDestination) {
    Remove-Item $FullDestination
-   Write-Out "Removed $FullDestination..."
+   Write-Output "Removed $FullDestination..."
 }
 
 Rename-Item -Path $Destination -NewName "setupdownloader_[$CompanyHash].exe"
